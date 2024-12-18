@@ -1,0 +1,46 @@
+# ASP.NET Core specific files to ignore
+
+# User-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core environment files
+*.swp
+*.bak
+*.tmp
+*.log
+
+# Build results
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.cache
+
+# Package manager files
+*.nuget/
+*.npm/
+
+# Visual Studio
+*.psess
+TestResults/
+
+# Logs and other artifacts
+*.log
+*.tlog
+*.trx
+
+# Configuration files
+appsettings.json
+appsettings.*.json
+secrets.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
